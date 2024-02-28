@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 
+
 class SearchCustomerPage:
     email_textbox_id = "SearchEmail"
     first_name_textbox_id = "SearchFirstName"
@@ -27,7 +28,7 @@ class SearchCustomerPage:
         self.driver.find_element(By.ID, self.last_name_textbox_id).send_keys(lastname)
 
     def ClickSearchbutton(self):
-        self.driver.find_element(By.XPATH, self.Search_button_id).click()
+        self.driver.find_element(By.ID, self.Search_button_id).click()
 
     def getNoofRows(self):
         return len(self.driver.find_elements(By.XPATH, self.table_rows_xpath))
@@ -36,21 +37,25 @@ class SearchCustomerPage:
         return len(self.driver.find_elements(By.XPATH, self.table_column_xpath))
 
     def SearchCustomerbyEmail(self, email):
-        flag = False
-        for r in range(1, self.getNoofRows()+1):
+        email_list = []  # Create an empty list to store email elements
+        for r in range(1, self.getNoofRows() + 1):
             table = self.driver.find_element(By.ID, self.table_id)
-            emailid = table.find_element(By.XPATH, "//table[@id='customers-grid']//tbody/tr["+str(r)+"]/td[2]").text
-            if emailid == email:
-                flag = True
-                break
+            email_id = table.find_element(By.XPATH,
+                                          "//table[@id='customers-grid']//tbody/tr[" + str(r) + "]/td[2]").text
+            email_list.append(email_id)  # Append the email element to the list
+
+        print(email_list)
+
+        flag = email in email_list  # Check if the email is in the list
         return flag
 
     def SearchCustomerbyName(self, Name):
-        flag = False
-        for r in range(1, self.getNoofRows()+1):
+        name_list = []  # Create an empty list to store email elements
+        for r in range(1, self.getNoofRows() + 1):
             table = self.driver.find_element(By.ID, self.table_id)
-            name = table.find_element(By.XPATH, "//table[@id='customers-grid']//tbody/tr["+str(r)+"]/td[3]").text
-            if name == Name:
-                flag = True
-                break
+            name = table.find_element(By.XPATH,
+                                          "//table[@id='customers-grid']//tbody/tr[" + str(r) + "]/td[3]").text
+            name_list.append(name)  # Append the email element to the list
+
+        flag = Name in name_list  # Check if the email is in the list
         return flag

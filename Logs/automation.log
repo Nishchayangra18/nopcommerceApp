@@ -598,3 +598,36 @@
 2024-02-04 00:47:13,548 - root - INFO - ********************** Completed Test_002_DDT_Login ************************
 2024-02-04 00:47:13,548 - root - INFO - ********************** Completed Test_002_DDT_Login ************************
 2024-02-04 00:47:13,548 - root - INFO - ********************** Completed Test_002_DDT_Login ************************
+2024-02-28 21:20:13,831 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-28 21:20:17,866 - root - INFO - ******************** Login Successful ************************
+2024-02-28 21:20:27,867 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-28 21:20:36,620 - root - INFO - ***************** Providing customer info****************
+2024-02-28 21:22:23,973 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-28 21:22:28,251 - root - INFO - ******************** Login Successful ************************
+2024-02-28 21:22:38,252 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-28 21:22:47,102 - root - INFO - ***************** Providing customer info****************
+2024-02-28 21:23:41,310 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-28 21:24:08,774 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-28 21:24:13,382 - root - INFO - ******************** Login Successful ************************
+2024-02-28 21:24:23,383 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-28 21:24:38,098 - root - INFO - ***************** Providing customer info****************
+2024-02-28 21:26:20,720 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-28 21:26:33,340 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-28 21:26:37,501 - root - INFO - ******************** Login Successful ************************
+2024-02-28 21:26:47,501 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-28 21:27:01,907 - root - INFO - ***************** Providing customer info****************
+2024-02-28 21:27:49,367 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-28 21:27:53,686 - root - INFO - ******************** Login Successful ************************
+2024-02-28 21:28:03,688 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-28 21:28:18,065 - root - INFO - ***************** Providing customer info****************
+2024-02-28 21:29:57,603 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-28 21:34:55,097 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-28 21:35:00,985 - root - INFO - ******************** Login Successful ************************
+2024-02-28 21:35:10,987 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-28 21:35:25,550 - root - INFO - ***************** Providing customer info****************
+2024-02-28 21:37:27,980 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-28 21:39:55,886 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-28 21:40:00,585 - root - INFO - ******************** Login Successful ************************
+2024-02-28 21:40:10,586 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-28 21:40:26,775 - root - INFO - ***************** Providing customer info****************
+2024-02-28 21:42:00,442 - root - INFO - ********************** Searching customer by email *******************************
