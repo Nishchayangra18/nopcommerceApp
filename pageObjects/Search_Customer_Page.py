@@ -11,6 +11,8 @@ class SearchCustomerPage:
     Searchcustomer_table_xpath = "//div[@class='dataTables_scroll']"
     table_rows_xpath = "//table[@id='customers-grid']//tbody/tr"
     table_column_xpath = "//table[@id='customers-grid']//tbody/tr/td"
+    customer_Roles_xpath = "//div[@class='k-multiselect-wrap k-floatwrap']"
+    Registered_cross_xpath = "//span[@class='k-icon k-i-close']"
 
     def __init__(self, driver):
         self.driver = driver
@@ -59,3 +61,8 @@ class SearchCustomerPage:
 
         flag = Name in name_list  # Check if the email is in the list
         return flag
+
+    def ClickRegisteredcrossbutton(self):
+        # self.driver.find_element(By.XPATH, self.customer_Roles_xpath).click()
+        self.listitem = self.driver.find_element(By.XPATH, self.Registered_cross_xpath)
+        self.driver.execute_script("arguments[0].click();", self.listitem)

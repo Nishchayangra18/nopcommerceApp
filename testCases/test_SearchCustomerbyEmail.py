@@ -73,14 +73,17 @@ class Test_004_Search_CustomerbyEmail:
             self.addcust.setComment(self.comment)
             self.addcust.clickSave()
 
+            self.logger.info("********************** Searching customer by email *******************************")
+            searchcust = SearchCustomerPage(self.driver)
+            searchcust.Enteremail(self.email)
+            searchcust.ClickRegisteredcrossbutton()
+            searchcust.ClickSearchbutton()
+            time.sleep(5)
+            status = searchcust.SearchCustomerbyEmail(self.email)
+            assert True == status
+
             if r < self.rows_customer:
                 self.addcust.clickAddnewbutton()
 
-        self.logger.info("********************** Searching customer by email *******************************")
-        searchcust = SearchCustomerPage(self.driver)
-        print(searchcust.Enteremail(self.email))
-        searchcust.Enteremail(self.email)
-        searchcust.ClickSearchbutton()
-        time.sleep(5)
-        status = searchcust.SearchCustomerbyEmail(self.email)
-        assert True == status
+        self.logger.info("********************** Searching customer by email Passed *******************************")
+        self.logger.info("********************** Test_004_Search_CustomerbyEmail Completed ************************")

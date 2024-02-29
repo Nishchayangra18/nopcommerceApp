@@ -631,3 +631,45 @@
 2024-02-28 21:40:10,586 - root - INFO - ********************** Starting Search Customer by email Test ************************
 2024-02-28 21:40:26,775 - root - INFO - ***************** Providing customer info****************
 2024-02-28 21:42:00,442 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 06:39:36,636 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-29 06:39:42,478 - root - INFO - ******************** Login Successful ************************
+2024-02-29 06:39:52,479 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-29 06:40:06,757 - root - INFO - ***************** Providing customer info****************
+2024-02-29 06:40:28,252 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 06:41:38,183 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-29 06:41:44,304 - root - INFO - ******************** Login Successful ************************
+2024-02-29 06:41:54,305 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-29 06:42:08,770 - root - INFO - ***************** Providing customer info****************
+2024-02-29 06:42:24,771 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 06:42:51,560 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 06:54:58,545 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-29 06:55:02,104 - root - INFO - ******************** Login Successful ************************
+2024-02-29 06:55:12,105 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-29 06:55:26,392 - root - INFO - ***************** Providing customer info****************
+2024-02-29 06:55:42,550 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:00:26,823 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-29 07:00:30,370 - root - INFO - ******************** Login Successful ************************
+2024-02-29 07:00:40,372 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-29 07:00:54,688 - root - INFO - ***************** Providing customer info****************
+2024-02-29 07:01:10,802 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:05:51,849 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-29 07:05:56,196 - root - INFO - ******************** Login Successful ************************
+2024-02-29 07:06:06,197 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-29 07:06:20,537 - root - INFO - ***************** Providing customer info****************
+2024-02-29 07:06:36,619 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:07:03,582 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:11:42,582 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-29 07:11:47,077 - root - INFO - ******************** Login Successful ************************
+2024-02-29 07:11:57,079 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-29 07:12:12,028 - root - INFO - ***************** Providing customer info****************
+2024-02-29 07:12:28,080 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:12:55,058 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:21:20,094 - root - INFO - ********************** Test_004_Search_CustomerbyEmail  ************************
+2024-02-29 07:21:25,768 - root - INFO - ******************** Login Successful ************************
+2024-02-29 07:21:35,769 - root - INFO - ********************** Starting Search Customer by email Test ************************
+2024-02-29 07:21:50,249 - root - INFO - ***************** Providing customer info****************
+2024-02-29 07:22:06,335 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:22:33,204 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:22:57,028 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:23:20,951 - root - INFO - ********************** Searching customer by email *******************************
+2024-02-29 07:23:44,885 - root - INFO - ********************** Searching customer by email *******************************
