@@ -46,20 +46,18 @@ class SearchCustomerPage:
                                           "//table[@id='customers-grid']//tbody/tr[" + str(r) + "]/td[2]").text
             email_list.append(email_id)  # Append the email element to the list
 
-        print(email_list)
-
         flag = email in email_list  # Check if the email is in the list
         return flag
 
     def SearchCustomerbyName(self, Name):
-        name_list = []  # Create an empty list to store email elements
+        name_list = []  # Create an empty list to store name elements
         for r in range(1, self.getNoofRows() + 1):
             table = self.driver.find_element(By.ID, self.table_id)
             name = table.find_element(By.XPATH,
                                           "//table[@id='customers-grid']//tbody/tr[" + str(r) + "]/td[3]").text
-            name_list.append(name)  # Append the email element to the list
+            name_list.append(name)  # Append the name element to the list
 
-        flag = Name in name_list  # Check if the email is in the list
+        flag = Name in name_list  # Check if the name is in the list
         return flag
 
     def ClickRegisteredcrossbutton(self):
